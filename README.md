@@ -31,9 +31,125 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-
+### book.html
+```
+<!DOCTYPE html>
+<html>
+<style>
+    .bookpage{
+        width: 400px;
+        height: 600px;
+        color:lavender;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: url(/static/pagepic.jpg);
+        background-size: cover;
+    }
+        
+    
+    .futuristic{
+        color: rgb(254, 255, 255);
+    
+    }
+    
+    
+    .hrstyle{
+        width:100px;
+    }
+    .author{
+    
+        display: inline;
+        position: relative;
+        color: rgb(244, 239, 234);
+        top:160px;
+        
+        font-family:Georgia;
+        font-size: medium;
+    }
+    .booktitle{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+        text-align: center;
+        position: relative;
+        top: 60px;
+    
+    }
+    .id {
+        width:400px;
+        position: relative;
+        top:175px;
+        
+    }
+    .pub{
+        font-size: medium;
+        position: relative;
+        top:135px;
+        left:330px;
+    }
+    .ed{
+        color: black;
+        font-size: medium;
+        font-family: Verdana;
+        position:relative;
+        top:80px;
+    
+    }
+    .subtitle{
+        font-family:Tahoma;
+        font-size: large;
+        position: relative;
+        top:70px;
+    }
+    .mypic{
+        position: relative;
+        top: 210px;
+        left: 300px;
+        width: 100px;
+        height: 150px;
+        background-size: cover;
+        
+    }
+    </style>
+    <title>Book Cover Page</title>
+    </head>
+    <body>
+    <div class="bookpage">
+        <div class="futuristic">
+            FUTURISTIC EXPERIENCE
+        </div>
+        <div class="hrstyle">
+            <hr style="color: yellow;">
+        </div>
+        <div class="booktitle">
+            <h1>MACHINE LEARNING</h1></div>
+        <div class="subtitle">
+            
+Welcome to the boundless world of machine learning, where algorithms unravel the mysteries hidden within data and empower us to make informed decisions.
+        </div>
+        <div class="mypic">
+            <img src="/static/myimage.png" width="110" height="110" alt="">
+        </div>
+        <div class="id">
+            <hr style="color: goldenrod;">
+        </div>
+        <div class="author">
+           <p><b>Jai Pradhiksha D P</b></p>
+        </div>
+        <div class="pub">
+            SEC
+        </div>
+        <div class="ed">
+            <b>Exclusive Edition</b>
+        </div>
+    </div>
+    </body>
+</html>
+```
 
 ## OUTPUT:
+![image](https://github.com/Jai-Pradhiksha/cover/assets/100289733/32e89c82-8e3f-447c-8814-31dfa81516fd)
 
 
 ## RESULT:
